@@ -38,7 +38,7 @@ if (true) {
 }
 
 console.log(oldWay); // Outputs: "I’m var" (var escapes the block!)
-console.log(newWay); // Error! "newWay is not defined" (let stays in the block)
+// console.log(newWay); // Error! "newWay is not defined" (let stays in the block)
 // console.log(fixedWay); // Error! "fixedWay is not defined" (const stays in the block too)
 
 // What’s happening:
